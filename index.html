@@ -40,9 +40,44 @@
       font-size: 0.9em;
       color: #666;
     }
+
+    @page {
+  size: A4;
+  margin: 1in;
+  }
+
+body {
+  page-break-inside: avoid;
+}
+
+h1, h2, h3 {
+  page-break-after: avoid;
+  page-break-inside: avoid;
+}
+
+p, ul, li, blockquote {
+  page-break-inside: avoid;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
   </style>
 </head>
 <body>
+
+<section style="margin-top: 1.5rem;">
+  <h2>Download Formats</h2>
+  <ul style="list-style: none; padding: 0; display: flex; gap: 1rem; flex-wrap: wrap;">
+    <li><a href="/RPLv1.txt" download style="border: 1px solid #222; padding: 6px 12px; border-radius: 8px; text-decoration: none; color: #222;">Plain Text (.txt)</a></li>
+    <li><a href="/RPLv1.md" download style="border: 1px solid #222; padding: 6px 12px; border-radius: 8px; text-decoration: none; color: #222;">Markdown (.md)</a></li>
+    <li><a href="/RPLv1.html" download style="border: 1px solid #222; padding: 6px 12px; border-radius: 8px; text-decoration: none; color: #222;">Raw HTML (.html)</a></li>
+    <li><a href="/RPLv1.pdf" download style="border: 1px solid #222; padding: 6px 12px; border-radius: 8px; text-decoration: none; color: #222;">PDF (.pdf)</a></li>
+  </ul>
+</section>
+
 
 <h1>Rogue Pact License (RPL) v1</h1>
 <p><em>Last updated: 2025-07-22</em><br>
