@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Rogue Pact License (RPL) v1</title>
+  <title>Rogue Pact License (RPL) v2</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     body {
@@ -14,7 +14,7 @@
       color: #222;
       background: #fff;
     }
-    h1, h2 {
+    h1 {
       border-bottom: 1px solid #ccc;
       padding-bottom: 0.2em;
       margin-top: 2em;
@@ -30,11 +30,6 @@
     em {
       color: #666;
     }
-    hr {
-      border: none;
-      border-top: 1px solid #ddd;
-      margin: 2em 0;
-    }
     footer {
       margin-top: 4em;
       font-size: 0.9em;
@@ -42,132 +37,76 @@
     }
 
     @page {
-  size: A4;
-  margin: 1in;
-  }
+      size: A4;
+      margin: 1in;
+    }
 
-body {
-  page-break-inside: avoid;
-}
+    body {
+      page-break-inside: avoid;
+    }
 
-h1, h2, h3 {
-  page-break-after: avoid;
-  page-break-inside: avoid;
-}
+    h1 {
+      page-break-after: avoid;
+      page-break-inside: avoid;
+    }
 
-p, ul, li, blockquote {
-  page-break-inside: avoid;
-}
+    p, ul, li, blockquote {
+      page-break-inside: avoid;
+    }
 
-pre {
-  white-space: pre-wrap;
-  word-wrap: break-word;
-}
-
+    pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
   </style>
 </head>
 <body>
 
 <section style="margin-top: 1.5rem;">
-  <h2>Download Formats</h2>
+  <p><strong>Download Formats</strong></p>
   <ul style="list-style: none; padding: 0; display: flex; gap: 1rem; flex-wrap: wrap;">
-    <li><a href="/RPLv1.txt" download style="border: 1px solid #222; padding: 6px 12px; border-radius: 8px; text-decoration: none; color: #222;">Plain Text (.txt)</a></li>
-    <li><a href="/RPLv1.md" download style="border: 1px solid #222; padding: 6px 12px; border-radius: 8px; text-decoration: none; color: #222;">Markdown (.md)</a></li>
-    <li><a href="/RPLv1.html" download style="border: 1px solid #222; padding: 6px 12px; border-radius: 8px; text-decoration: none; color: #222;">Raw HTML (.html)</a></li>
-    <li><a href="/RPLv1.pdf" download style="border: 1px solid #222; padding: 6px 12px; border-radius: 8px; text-decoration: none; color: #222;">PDF (.pdf)</a></li>
+    <li><a href="/RPLv2.txt" download style="border: 1px solid #222; padding: 6px 12px; border-radius: 8px; text-decoration: none; color: #222;">Plain Text (.txt)</a></li>
+    <li><a href="/RPLv2.md" download style="border: 1px solid #222; padding: 6px 12px; border-radius: 8px; text-decoration: none; color: #222;">Markdown (.md)</a></li>
+    <li><a href="/RPLv2.html" download style="border: 1px solid #222; padding: 6px 12px; border-radius: 8px; text-decoration: none; color: #222;">Raw HTML (.html)</a></li>
+    <li><a href="/RPLv2.pdf" download style="border: 1px solid #222; padding: 6px 12px; border-radius: 8px; text-decoration: none; color: #222;">PDF (.pdf)</a></li>
   </ul>
 </section>
 
+<h1>Rogue Pact License (RPL) v2</h1>
+<p><em>Created by RogueHashrate, 12-17-2025</em></p>
 
-<h1>Rogue Pact License (RPL) v1</h1>
-<p><em>Last updated: 2025-07-22</em><br>
-<em>Created by: RogueHashrate</em></p>
+<p>
+The Rogue Pact License is a pact for sharing code: open, transparent, and collaborative.
+It exists to express a way of working together, not to impose strict control.
+</p>
 
-<hr />
+<p>
+You are free to use, copy, modify, and distribute this software and derivative works,
+for any purpose, including commercial use.
+</p>
 
-<h2>1. Purpose and Scope</h2>
-<p>The Rogue Pact License (RPL) v1 is a free and open source license designed to ensure fairness, transparency, and responsibility among all users of the software. It allows unrestricted personal and private use, but requires openness and attribution when distributing binaries or modifications to others.</p>
+<p>
+If you redistribute this software or derivative works, acknowledgment of the original
+author is required. This can be as simple as a credit in documentation or source.
+</p>
 
-<hr />
+<p>
+Sharing source code, publishing modifications, or contributing improvements is encouraged
+but optional. Private modifications do not need to be published.
+</p>
 
-<h2>2. Grant of Rights</h2>
-<p>You are granted a worldwide, royalty-free, non-exclusive license to use, copy, modify, and distribute this software and derivative works, including for commercial purposes, provided that you do not withhold source code, mislead users, or otherwise circumvent the obligations of this license.</p>
+<p>
+This pact applies equally to all individuals and organizations. No special status,
+industry, or intent changes its meaning.
+</p>
 
-<hr />
-
-<h2>3. Source Code Availability</h2>
-<p>If you distribute a <strong>binary or executable version</strong> of this software (original or modified), you must also make the complete and corresponding <strong>source code</strong> available to the public, free of charge, under the same license.</p>
-
-<p>The source code must:</p>
-<ul>
-  <li>Be sufficient to build the distributed binary without proprietary tools;</li>
-  <li>Correspond exactly to the version of the binary being distributed;</li>
-  <li>Be hosted in a location that is publicly accessible <strong>without account requirements</strong>.</li>
-  <li>If the binary is sold or distributed commercially, the corresponding source code must be equally accessible to the recipient, without additional cost or barriers.</li>
-</ul>
-
-<hr />
-
-<h2>4. Private Modifications</h2>
-<p>You may modify this software for private use without any obligation to publish your modifications, provided that the modified version is not distributed to others outside your personal, organizational, or internal use.<br>
-If you distribute the modified version in any form (including compiled binaries or embedded in a product), you must also distribute the complete, corresponding source code under the terms of this license.</p>
-
-<hr />
-
-<h2>5. Attribution</h2>
-<p>You must provide <strong>appropriate credit</strong> to the original author(s) when distributing this software or any derivative works. This includes:</p>
-<ul>
-  <li>Naming the original project and author(s) in documentation and/or within the software</li>
-  <li>Including a notice such as:<br>
-    <blockquote>“Based on software originally created by [Author Name or Pseudonym / Project Name].”</blockquote>
-  </li>
-</ul>
-<p>You may not use the original author(s)’ names, project names, or branding for marketing, promotion, or endorsement without explicit written permission.</p>
-
-<hr />
-
-<h2>6. Equal Terms for All</h2>
-<p>This license applies equally to all individuals and organizations, including but not limited to companies, governments, academic institutions, and non-profits.</p>
-<p>No entity may use, distribute, or benefit from this software in a way that circumvents the requirements of this license. This includes attempts to obscure source code, hide attribution, or shift obligations onto end users.</p>
-<p>Commercial use is permitted, but only if all license terms — especially those concerning source code availability and transparency — are fully upheld. No exceptions are granted based on business model, industry, size, or internal policy.</p>
-
-<hr />
-
-<h2>7. Modification and Redistribution</h2>
-<p>You may modify this software for any purpose. If you choose to distribute your modified version, you must:</p>
-<ul>
-  <li>Clearly indicate that changes were made</li>
-  <li>Include the full modified source code under this same license</li>
-  <li>Retain this license in all copies and derivative works</li>
-</ul>
-<p>You may not impose additional restrictions or alter the license terms when redistributing.</p>
-
-<hr />
-
-<h2>8. Termination</h2>
-<p>If you violate the terms of this license, your rights under it terminate automatically. Upon termination, you must cease all use, copying, and distribution of the software until compliance is restored. You may regain your rights under the license by resolving the violation in good faith.</p>
-
-<hr />
-
-<h2>9. Disclaimer of Warranty</h2>
-<p>This software is provided “as is,” without warranty of any kind, express or implied. The authors disclaim all warranties, including but not limited to merchantability, fitness for a particular purpose, and noninfringement.</p>
-
-<hr />
-
-<h2>10. Limitation of Liability</h2>
-<p>In no event shall the authors be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from the use of this software.</p>
-
-<hr />
-
-<h2>11. Optional Contributions Encouraged</h2>
-<p>Although not required, users are encouraged to contribute bug fixes, improvements, or features back to the upstream project. Such contributions help foster a stronger, more sustainable community.</p>
-
-<hr />
+<p>
+The author may grant exceptions or alternative terms if requested.
+</p>
 
 <footer>
-  <p>Rogue Pact License (RPL) v1 • <em>rpl.roguehashrate.com</em></p>
+  <p>Rogue Pact License (RPL) v2 • <em>rpl.roguehashrate.com</em></p>
 </footer>
 
 </body>
 </html>
-
