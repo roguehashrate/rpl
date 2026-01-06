@@ -1,8 +1,15 @@
 Rogue Pact License (RPL) v2
+
 Created by RogueHashrate, 12-17-2025
 
-The RPL is a pact for sharing code: open, transparent, and collaborative.
-You are free to use, copy, modify, and distribute this software and derivative works.
-Redistribution requires acknowledgment of the original author.
-Sharing source, contributing improvements, or publishing modifications is encouraged but optional.
-The author may grant exceptions or alternative terms if requested.
+The Rogue Pact License is a pact for sharing code: open, transparent, and collaborative. It exists to express a way of working together, not to impose strict control.
+
+You are free to use, copy, modify, and distribute this software and derivative works, for any purpose, including commercial use.
+
+If you redistribute this software or derivative works, acknowledgment of the original author is required. This can be as simple as a credit in documentation or source.
+
+Sharing source code, publishing modifications, or contributing improvements is encouraged but optional. Private modifications do not need to be published.
+
+This pact applies equally to all individuals and organizations. No special status, industry, or intent changes its meaning.
+
+The author may grant exceptions or alternative terms if requested. 
