@@ -1,4 +1,5 @@
 # Rogue Pact License (RPL) v2
+---
 
 Created by RogueHashrate, 12-17-2025
 
